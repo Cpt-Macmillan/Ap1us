@@ -1,0 +1,383 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey", 
+        "intent": "chitchat", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "chitchat", 
+        "entities": []
+      }, 
+      {
+        "text": "How are you doing?",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Hello", 
+        "intent": "chitchat", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "chitchat", 
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "dear sir",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Good afternoon",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "Yes.", 
+        "intent": "affirm", 
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "fine",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "right, thank you",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "correct",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great choice",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text":"Sure",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Sure",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "No thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "No",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "No thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "wrong",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nope",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "stock price",
+        "intent": "get_price",
+        "entities": []
+      },
+      {
+        "text": "what's the latest price",
+        "intent": "get_price",
+        "entities": []
+      },
+      {
+        "text": "I am searching for a stock price",
+        "intent": "get_price",
+        "entities": []
+      },
+      {
+        "text": "What about the price?",
+        "intent": "get_price"
+      },
+      {
+        "text": "price of that company",
+        "intent": "get_price"
+      },
+      {
+        "text": "Show me the price.",
+        "intent": "get_price"
+      },
+      {
+        "text": "Tell me the stock price",
+        "intent": "get_price"
+      },
+      {
+        "text": "the price",
+        "intent": "get_price",
+        "entities": []
+      },
+      {
+        "text": "I want to get a stock volume",
+        "intent": "get_volume",
+        "entities": []
+      },
+      {
+        "text": "Get a stock volume for me?",
+        "intent": "get_volume",
+        "entities": []
+      },
+      {
+        "text": "the volume",
+        "intent": "get_volume",
+        "entities": []
+      },
+      {
+        "text": "stock volume",
+        "intent": "get_volume",
+        "entities": []
+      },
+      {
+        "text": "I have a stock, can you tell me its volume?",
+        "intent": "get_volume",
+        "entities": []
+      },
+      {
+        "text": "tell me the volume",
+        "intent": "get_volume",
+        "entities": []
+      },
+      {
+        "text": "Do you know the volume of facebook?",
+        "intent": "get_volume",
+        "entities": []
+      },
+      {
+        "text": "I want to know the volume",
+        "intent": "get_volume",
+        "entities": []
+      },
+      {
+        "text": "describe",
+        "intent": "get_description",
+        "entities": []
+      },
+      {
+        "text": "I want the value of this company",
+        "intent": "get_description",
+        "entities": []
+      },
+      {
+        "text": "Tell me something about that.",
+        "intent": "get_description",
+        "entities": []
+      },
+      {
+        "text": "I want to know more.",
+        "intent": "get_description",
+        "entities": []
+      },
+      {
+        "text": "Tell me something more.",
+        "intent": "get_description",
+        "entities": []
+      },
+      {
+        "text": "Show me the chart.",
+        "intent": "get_plot",
+        "entities": []
+      },
+      {
+        "text": "the recent performance",
+        "intent": "get_plot",
+        "entities": []
+      },
+      {
+        "text": "Show me the statistic",
+        "intent": "get_plot",
+        "entities": []
+      },
+      {
+        "text": "I want a statistic plot",
+        "intent": "get_plot",
+        "entities": []
+      },
+      {
+        "text": "What about the plot",
+        "intent": "get_plot",
+        "entities": []
+      },
+      {
+        "text": "I want the plot",
+        "intent": "get_plot",
+        "entities": []
+      },
+
+      {
+        "text": "Fetch me the plot",
+        "intent": "get_plot",
+        "entities": []
+      },
+      {
+        "text": "the plot",
+        "intent": "get_plot",
+        "entities": []
+      },
+      {
+        "text": "Graph",
+        "intent": "get_plot",
+        "entities": []
+      },
+      {
+        "text": "bye", 
+        "intent": "chitchat", 
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "chitchat", 
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "chitchat", 
+        "entities": []
+      }, 
+      {
+        "text": "stop", 
+        "intent": "chitchat", 
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+        "intent": "chitchat", 
+        "entities": []
+      },
+      {
+        "text": "farewell",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Fuck you",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Go fuck yourself.",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Your mother exploded.",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Are you an idiot?",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Have some shit.",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Your mother is a gay.",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Fuck your mother.",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "idiot",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "I hate you",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Thank you.",
+        "intent": "chitchat",
+        "entities": []
+      },
+      {
+        "text": "Thanks.",
+        "intent": "chitchat",
+        "entities": []
+      }
+    ]
+  }
+}
